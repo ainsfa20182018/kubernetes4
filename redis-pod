@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: redis-pod
+spec:
+  imagePullSecrets:
+  - name: MySecureP@ss
+  containers:
+  - image: secret-creds/app-creds
+    name: redis-pod
