@@ -24,7 +24,7 @@ spec:
         run: nginx-app
     spec:
       containers:
-      - image: ikambarov/web-app:1.15.0
+      - image: ainsfa/nginx-app:1.15.0
         name: nginx-app
         readinessProbe:
           httpGet:
